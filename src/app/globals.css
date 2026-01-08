@@ -1,6 +1,6 @@
 .glass-header-text,
 .links a {
-  
+  text-decoration: none;
   font-weight: 200;
   text-align: center;
   color: rgba(255, 255, 255, 0.85);
@@ -11,4 +11,11 @@
   height: 100%;
   color: white;
   margin: 0 auto;
+}
+header{
+  display: flex;
+  align-items: center;
+  background-color: #111111;
+  width: 100vw;
+  height: 72px;
 }
